@@ -3,7 +3,7 @@ import { StyleSheet } from "react-native";
 const styles = StyleSheet.create({
 	container: {
 		width: "100%",
-		height: "100%",
+		height: "100vh",
 		backgroundColor: "#e5e5e5",
 		position: "relative",
 	},
@@ -25,6 +25,10 @@ const styles = StyleSheet.create({
 		height: "100%",
 		position: "absolute",
 		resizeMode: "cover",
+	},
+	btnContainer: {
+		marginTop: "auto",
+		paddingBottom: 10,
 	},
 });
 
