@@ -28,7 +28,7 @@ const styles = StyleSheet.create({
 	},
 	btnContainer: {
 		marginTop: "auto",
-		paddingBottom: 10,
+		paddingBottom: 30,
 	},
 });
 
