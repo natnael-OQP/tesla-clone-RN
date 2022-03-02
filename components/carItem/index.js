@@ -8,7 +8,12 @@ const CarItem = ({ image, name, taglineCTA, tagline }) => {
 			<ImageBackground source={image} style={styles.background} />
 			<View style={styles.info}>
 				<Text style={styles.title}>{name}</Text>
-				<Text style={styles.price}>{tagline}</Text>
+				<Text style={styles.tagline}>
+					{tagline}
+					{taglineCTA && (
+						<Text style={styles.taglineCTA}>{taglineCTA}</Text>
+					)}
+				</Text>
 			</View>
 			<View style={styles.btnContainer}>
 				<StyledButton primary content="Custom Order " />
